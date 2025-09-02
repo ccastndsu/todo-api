@@ -144,7 +144,7 @@ The kubeconfig file download from [Login to Rancher](#login-to-rancher) acts as 
 * Export env variable for your session: `export KUBECONFIG=/path/to/your/kubeconfig`
 * Place the file at this location: `~/.kube/config`
 
-## Creating a project and then a namespace
+## Creating a project and then a namespace (IMPORTANT)
 
 The first step to deploying any workflow is to create a project and then a namespace in Rancher.
 
