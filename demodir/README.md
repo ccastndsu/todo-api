@@ -7,7 +7,7 @@ For new users to be granted access to Rancher, please email ndsu.ccast.support@n
 
 Navigate out to [rancher.ccast.ndsu.edu](https://rancher.ccast.ndsu.edu/) 
 
-You will see the following screen that asks you to login using Shibboleth. Click Shibboleth and then proceed to login using your NDSU credentials. 
+You will see the following screen that asks you to login using Shibboleth. Click "Log in with Shibboleth" and then proceed to login using your NDSU credentials. 
 
 ![Screenshot](rancherlogin.png)
 
