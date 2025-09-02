@@ -1,23 +1,15 @@
 # 1) Logging into Rancher
+Logins to Rancher are now managed by a Active Directory security group that is managed by CCAST Staff. 
 
-## Login to globus
-Navigate out to [app.globus.com](https://auth.globus.org/) . Click Login on the right. 
-
-Using the drop down menu, select North Dakota State University Main Campus
-
-![Screenshot](globusloginscreen.png)
-
-From there click on "Settings" in the bottom left menu column. Click the down arrow in the box to the right of your name to reveal your account information. 
-
-Please send your ID, "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx", to one of the system administrators so they can create your account in Rancher
-
-![Screenshot](globusuuidscreen.png)
-
-Once the system administrators have created your account in Rancher with the help of your GlobusID, proceed to login to Rancher. 
+For new users to be granted access to Rancher, please email ndsu.ccast.support@ndsu.edu
 
 ## Login to Rancher
 
 Navigate out to [rancher.ccast.ndsu.edu](https://rancher.ccast.ndsu.edu/) 
+
+You will see the following screen that asks you to login using Shibboleth. Click Shibboleth and then proceed to login using your NDSU credentials. 
+
+
 
 Click on the ORM box on the left side column of the screen. You should now be viewing the Cluster Dashboard. 
 
