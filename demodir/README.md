@@ -9,7 +9,7 @@ Navigate out to [rancher.ccast.ndsu.edu](https://rancher.ccast.ndsu.edu/)
 
 You will see the following screen that asks you to login using Shibboleth. Click Shibboleth and then proceed to login using your NDSU credentials. 
 
-![Screenshot](shibbolethlogin.png)
+![Screenshot](rancherlogin.png)
 
 Click on the ORM box on the left side column of the screen. You should now be viewing the Cluster Dashboard. 
 
