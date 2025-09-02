@@ -1,5 +1,5 @@
 # 1) Logging into Rancher
-Logins to Rancher are now managed by a Active Directory security group that is managed by CCAST Staff. 
+Logins to Rancher are now managed by an Active Directory security group that is managed by CCAST Staff in [Grouper](https://grouper.it.ndsu.edu/grouper).  
 
 For new users to be granted access to Rancher, please email ndsu.ccast.support@ndsu.edu
 
@@ -9,7 +9,7 @@ Navigate out to [rancher.ccast.ndsu.edu](https://rancher.ccast.ndsu.edu/)
 
 You will see the following screen that asks you to login using Shibboleth. Click Shibboleth and then proceed to login using your NDSU credentials. 
 
-
+![Screenshot](shibbolethlogin.png)
 
 Click on the ORM box on the left side column of the screen. You should now be viewing the Cluster Dashboard. 
 
