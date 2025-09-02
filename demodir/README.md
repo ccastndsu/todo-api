@@ -144,10 +144,24 @@ The kubeconfig file download from [Login to Rancher](#login-to-rancher) acts as 
 * Export env variable for your session: `export KUBECONFIG=/path/to/your/kubeconfig`
 * Place the file at this location: `~/.kube/config`
 
-## Creating namespace
+## Creating a project and then a namespace
 
-A namespace acts as a virtual cluster within the Kubernetes cluster, create a new namespace so that you can clean up the demo easily.
-`kubectl create namespace todo-api-<name or unique value>`
+The first step to deploying any workflow is to create a project and then a namespace in Rancher.
+
+Click on ORM in the left sidepanel. Then under Cluster, click Projects/Namespaces.
+
+![Screenshot](projectsnamespaces.png)
+
+From there click Create Project in the top right of the screen. Proceed to give it any name and the other default values can remain unchanged.
+
+![Screenshot](projectcreate.png)
+
+Now that you have a created Project, you can create a namespace within that project. 
+Click Create Namespace on your newly created Project. 
+
+![Screenshot](namecreate.png)
+
+You have now successfully created yourself a working project and namespace environment that you will use for the rest of this demo. 
 
 ## Deploying yaml files
 The yaml files in the [kubernetes folder](./kubernetes) are what equate to the docker compose file but for Kubernetes deployment.
