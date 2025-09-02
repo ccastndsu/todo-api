@@ -150,18 +150,24 @@ The first step to deploying any workflow is to create a project and then a names
 
 Click on ORM in the left sidepanel. Then under Cluster, click Projects/Namespaces.
 
+
 ![Screenshot](projectsnamespaces.png)
 
-From there click Create Project in the top right of the screen. Proceed to give it any name and the other default values can remain unchanged.
+
+From there click Create Project in the top right of the screen. The following image is what you should see after you have clicked Create Project. Proceed to give it any name and the other default values can remain unchanged. 
+
 
 ![Screenshot](projectcreate.png)
 
 Now that you have a created Project, you can create a namespace within that project. 
-Click Create Namespace on your newly created Project. 
+Click Create Namespace on your newly created Project. The following image is what you should see after you have clicked Create Namespace. Proceed to give it any name and the other default values can remain unchanged. 
+
 
 ![Screenshot](namecreate.png)
 
-You have now successfully created yourself a working project and namespace environment that you will use for the rest of this demo. 
+
+You have now successfully created yourself a working project and namespace environment that you will use for the rest of this demo.
+
 
 ## Deploying yaml files
 The yaml files in the [kubernetes folder](./kubernetes) are what equate to the docker compose file but for Kubernetes deployment.
